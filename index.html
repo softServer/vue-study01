@@ -6,11 +6,21 @@
     <title>study</title>
   </head>
   <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-    live service 挺牛的
-  这个呢一样的
-  hello
-  ??没有live service 确实不行哈
+    <h1>学习来源<a href="https://www.jianshu.com/p/40cd7b5dd0b2">Vue入门教程</a></h1>
+    <p>全局的入口index.html，下面内嵌一个id为app的div</p>
+    <div id="app">
+    </div>
+    <h1>全局的index.html</h1>
+    <ul>
+      <li>
+        1、报错 loaderContext.getResolve is not a function
+        <p>
+          是因为安装的sass loader版本太高，降低版本即可
+          npm uninstall sass-loader   //卸载当前版本   
+          npm install sass-loader@7.3.1 --save-dev  //安装低版本</p>
+      </li>
+      <li>2、写在id为app的div标签中的内容不会显示</li>
+      <li>3、写在index.html中的内容只要刷新页面才能加载，不能通过live server动态加载</li>
+    </ul>
   </body>
 </html>

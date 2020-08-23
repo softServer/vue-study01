@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <p>app.vue 这是入口</p>
     <router-view/>
+    <p>听说这个是个入口，怎么个入法呢？app.vue </p>
+    <p>填充上面router-view 这个标签？</p>
   </div>
 </template>
 
@@ -11,13 +13,6 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+ @import "./style/style";
 </style>
