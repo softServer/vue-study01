@@ -1,6 +1,6 @@
 # study
 
-> 学习vue。听说vuetify比较好用就学着试一下
+> 学习vue。初识跟着教程[Vue入门教程](https://www.jianshu.com/p/40cd7b5dd0b2)一步步做。完全模仿
 
 ## Build Setup
 
